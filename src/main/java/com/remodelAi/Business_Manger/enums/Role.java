@@ -1,0 +1,28 @@
+package com.remodelAi.Business_Manger.enums;
+
+public enum Role {
+    FINANCE_EDITOR("FINANCE_EDITOR"),
+    FINANCE_ANALYST("FINANCE_ANALYST"),
+    ADS_RIGHTS_REVIEWER("ADS_RIGHTS_REVIEWER"),
+    ADMIN("ADMIN"),
+    EMPLOYEE("EMPLOYEE"),
+    DEVELOPER("DEVELOPER"),
+    PARTNER_CENTER_ADMIN("PARTNER_CENTER_ADMIN"),
+    PARTNER_CENTER_ANALYST("PARTNER_CENTER_ANALYST"),
+    PARTNER_CENTER_OPERATIONS("PARTNER_CENTER_OPERATIONS"),
+    PARTNER_CENTER_MARKETING(" PARTNER_CENTER_MARKETING"),
+    PARTNER_CENTER_EDUCATION("PARTNER_CENTER_EDUCATION"),
+    MANAGE("MANAGE"),
+    DEFAULT("DEFAULT"),
+    FINANCE_EDIT("FINANCE_EDIT"),
+    FINANCE_VIEW("FINANCE_VIEW");
+    private final String role;
+
+    private Role(String role) {
+        this.role = role;
+    }
+
+    public String getRole() {
+        return role;
+    }
+}
